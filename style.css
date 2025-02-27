@@ -1,0 +1,59 @@
+/* mais sobre view port */
+/* https://www.alura.com.br/artigos/guia-de-unidades-no-css */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+
+/* guia flex-box */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+}
+.titulo-destaque{
+    color: #22D4FD;
+}
+
+.container {
+    display: flex;
+    align-items: center; /*Alinhamento vertical*/
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin: 10%;
+}
+.container_conteudo{
+    width: 650px;
+}
+
+.container_conteudo_titulo{
+    font-size: 36px;
+    font-family: "Krona one", sans-serif;
+    margin-bottom: 40px;
+
+}
+.container_conteudo_texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container_links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.container__links__link{
+    background-color: #22D4FD;
+    width: 280px;
+    padding: 16px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 16px;
+}
